@@ -39,7 +39,7 @@ class SolveEquation {
                     `${math.multiply(LSolved[1][0],this.y1).toFraction()} + y<sub>2</sub> = ` + bMatrix[1],
                     `${LSolved[1][1]}y<sub>2</sub> =  ${bMatrix[1]} -  ${math.multiply(LSolved[1][0],this.y1).toFraction()}`,
                     `${LSolved[1][1]}y<sub>2</sub> = ${math.subtract(bMatrix[1],math.multiply(LSolved[1][0],this.y1)).toFraction()}`,
-                    `y<sub>2</sub> = ${this.y2}`
+                    `y<sub>2</sub> = ${this.y2.toFraction()}`
                 ],
             ],
             [
@@ -50,7 +50,7 @@ class SolveEquation {
                     `${math.add(math.multiply(LSolved[2][0],this.y1),math.multiply(LSolved[2][1],this.y2)).toFraction()} + ${LSolved[2][2]}y<sub>3</sub>  = ${bMatrix[2]}`,
                     `${LSolved[2][2]}y<sub>3</sub> =  ${bMatrix[2]} -  ${math.add(math.multiply(LSolved[2][0],this.y1),math.multiply(LSolved[2][1],this.y2)).toFraction()}`,
                     `${LSolved[2][2]}y<sub>3</sub> = ${math.subtract(math.subtract(bMatrix[2],math.multiply(LSolved[2][0],this.y1)), math.multiply(LSolved[2][1],this.y2)).toFraction()}`,
-                    `y<sub>3</sub> = ${this.y3}`
+                    `y<sub>3</sub> = ${this.y3.toFraction()}`
                 ],
             ]
         ]
