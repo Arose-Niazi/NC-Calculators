@@ -1,11 +1,10 @@
 class SolveEquation {
-    constructor(size, data) {
+    constructor(size) {
 
         printHeading("Solving Linear Equation", true, "h1");
         printHeading("Ly = b", true, "h1");
 
         this.size = size;
-        this.data = data;
         this.y = [
             ["y<sub>1</sub>", "=" , bMatrix[0]],
             ["y<sub>2</sub>", "=" , bMatrix[1]],
