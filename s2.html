@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Numerical Computing</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
 
@@ -18,87 +20,124 @@
             <h1 id="s2">
                 Sessional 2
             </h1>
+            <div class="right">
+                <a href="./terminal.html">Terminal</a>
+                <a href="./s1.html">Sessional 1</a>
+                <a href="./index.html">Main</a>
+            </div>
         </div>
     </div>
-    <div>
-        <h2 class="headings" id="DiagonalDominent">
-            Jacobi <span class="sep"></span> Gauss Seidel
-        </h2>
-        <a href="./DD/Jacobi.xlsx" class="calculators" target="_blank">Jacobi</a>
-        <a href="./DD/Gauss Seidel.xlsx" class="calculators" target="_blank">Gauss Seidel</a>
-        <h3>How to use</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7dKn6U3K8mg" title="Jacobi and Gauss Seidel"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        <h3>How to write</h3>
-        <span class="chkNotes">Please check ayesha's notes</span><br>
-        <a href="./files/DD.pdf"><button class="btn pdfs">Download</button></a>
-
-    </div>
-    <center>
-        <div class="bar"></div>
-    </center>
-    <div>
-        <h2 class="headings" id="UnequallySpacedData">
-            Unequally Spaced Data <br>
-            <h2 class="headings"> Lagrange Interpolation <span class="sep"></span> Divided
-                Difference</h2>
-        </h2>
-        <a href="http://atozmath.com/CONM/NumeInterPola.aspx?q=LI&q1=1%601%2c2%2c3%2c5%603%2c6%2c19%2c99%23%601.5%60LI%603&dp=4&do=1#PrevPart"
-            class="calculators" target="_blank">Lagrange Interpolation</a>
-        <a href="http://atozmath.com/CONM/NumeInterPola.aspx?q=DD&q1=1%601%2c2%2c4%2c5%2c6%602%2c0%2c20%2c54%2c112%23%601.5%60DD%603&dp=4&do=1#PrevPart"
-            class="calculators" target="_blank">Divided Difference</a>
-        <h3>How to use</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/wwNprfkpOPg" title="Unequally Spaced Data"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        <h3>How to write</h3>
-        <span class="chkNotes">Please check ayesha's notes</span> <br>
-        <a href="./files/UnequallySpacedData.pdf"><button class="btn pdfs">Download</button></a>
-
-    </div>
-    <center>
-        <div class="bar"></div>
-    </center>
-    <div>
-        <h2 class="headings" id="EquallySpacedData">
-            Equally Spaced Data <br>
-            <h2 class="headings">Newton's Forward Interpolation<span class="sep"></span>Newton's Backward
-                Interpolation
-                <span class="sep"></span>Newton's Stirling's Formula
+    <div class="main">
+        <div>
+            <h2 class="heading" id="DiagonalDominent">
+                Jacobi <span class="sep"></span> Gauss Seidel
             </h2>
-        </h2>
-        <a href="https://atozmath.com/CONM/NumeInterPola.aspx?q=F&q1=1" class="calculators" target="_blank">Newton's
-            Forward
-            Interpolation</a>
-        <a href="https://atozmath.com/CONM/NumeInterPola.aspx?q=SM&q1=1" class="calculators" target="_blank">Stirling's
-            Formula</a>
-        <a href="https://atozmath.com/CONM/NumeInterPola.aspx?q=B&q1=1" class="calculators" target="_blank">Newton's
-            Backward
-            Interpolation</a>
-        <h3>How to use</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/oL-UnbWqF3c" title="Equally Spaced Data"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        <h3>How to write</h3>
-        <span class="chkNotes">Please check ayesha's notes</span> <br>
-        <a href="./files/EquallySpacedData/EquallySpacedData.pdf"><button class="btn pdfs">Notes</button></a> <br>
-        <span class="chkNotes">Please check Aeman's notes</span> </br>
-        <a href="./files/EquallySpacedData/EquallySpacedData (2).pdf"><button class="btn pdfs">Examples</button></a>
-        <a href="./files/EquallySpacedData/Forward difference Formula.pdf"><button class="btn pdfs">Newton's Forward
-                Interpolation</button></a>
-        <a href="./files/EquallySpacedData/Stirling Difference Formula.pdf"><button class="btn pdfs">Stirling's
-                Formula</button></a>
-        <a href="./files/EquallySpacedData/Backward Difference Formula.pdf"><button class="btn pdfs">Newton's
-                Backward
-                Interpolation</button></a>
-    </div>
-    </div>
-    <div>
 
+            <a href="./DD/Jacobi.xlsx" class="calculators" target="_blank">Jacobi</a>
+            <a href="./DD/Gauss Seidel.xlsx" class="calculators" target="_blank">Gauss Seidel</a>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>How to use</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7dKn6U3K8mg"
+                        title="Jacobi and Gauss Seidel" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <h3>How to write</h3>
+                    <span class="chkNotes">Please check ayesha's notes</span><br>
+                    <a href="./files/DD.pdf"><button class="btn pdfs">Download</button></a>
+                </div>
+            </div>
+
+        </div>
+
+        <center>
+            <div class="bar"></div>
+        </center>
+
+        <div>
+            <h2 class="heading" id="UnequallySpacedData">
+                Unequally Spaced Data <br>
+                <h2 class="headings"> Lagrange Interpolation <span class="sep"></span> Divided
+                    Difference</h2>
+            </h2>
+
+            <a href="http://atozmath.com/CONM/NumeInterPola.aspx?q=LI&q1=1%601%2c2%2c3%2c5%603%2c6%2c19%2c99%23%601.5%60LI%603&dp=4&do=1#PrevPart"
+                class="calculators" target="_blank">Lagrange Interpolation</a>
+            <a href="http://atozmath.com/CONM/NumeInterPola.aspx?q=DD&q1=1%601%2c2%2c4%2c5%2c6%602%2c0%2c20%2c54%2c112%23%601.5%60DD%603&dp=4&do=1#PrevPart"
+                class="calculators" target="_blank">Divided Difference</a>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>How to use</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wwNprfkpOPg"
+                        title="Unequally Spaced Data" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <h3>How to write</h3>
+                    <span class="chkNotes">Please check ayesha's notes</span> <br>
+                    <a href="./files/UnequallySpacedData.pdf"><button class="btn pdfs">Download</button></a>
+                </div>
+            </div>
+        </div>
+
+        <center>
+            <div class="bar"></div>
+        </center>
+
+        <div>
+            <h2 class="heading" id="EquallySpacedData">
+                Equally Spaced Data <br>
+                <h2 class="headings">Newton's Forward Interpolation<span class="sep"></span>Newton's Backward
+                    Interpolation
+                    <span class="sep"></span>Newton's Stirling's Formula
+                </h2>
+            </h2>
+
+            <a href="https://atozmath.com/CONM/NumeInterPola.aspx?q=F&q1=1" class="calculators" target="_blank">Newton's
+                Forward
+                Interpolation</a>
+            <a href="https://atozmath.com/CONM/NumeInterPola.aspx?q=SM&q1=1" class="calculators"
+                target="_blank">Stirling's
+                Formula</a>
+            <a href="https://atozmath.com/CONM/NumeInterPola.aspx?q=B&q1=1" class="calculators" target="_blank">Newton's
+                Backward
+                Interpolation</a>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>How to use</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oL-UnbWqF3c"
+                        title="Equally Spaced Data" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <h3>How to write</h3>
+                    <span class="chkNotes">Please check ayesha's notes</span> <br>
+                    <a href="./files/EquallySpacedData/EquallySpacedData.pdf"><button
+                            class="btn pdfs">Notes</button></a> <br>
+                    <span class="chkNotes">Please check Aeman's notes</span> </br>
+                    <a href="./files/EquallySpacedData/EquallySpacedData (2).pdf"><button
+                            class="btn pdfs">Examples</button></a>
+                    <a href="./files/EquallySpacedData/Forward difference Formula.pdf"><button class="btn pdfs">Newton's
+                            Forward
+                            Interpolation</button></a>
+                    <a href="./files/EquallySpacedData/Stirling Difference Formula.pdf"><button
+                            class="btn pdfs">Stirling's
+                            Formula</button></a>
+                    <a href="./files/EquallySpacedData/Backward Difference Formula.pdf"><button
+                            class="btn pdfs">Newton's
+                            Backward
+                            Interpolation</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
